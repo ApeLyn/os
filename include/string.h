@@ -1,0 +1,13 @@
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                            string.h
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                                    ÃÏ³½¡¢ÏÄÐÀ¡¢ºîË³Î°¡¢ÑîÆƒ
+                                                         2008Äê7ÔÂ
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+PUBLIC	void*	memcpy(void* p_dst, void* p_src, int size);
+PUBLIC	void	memset(void* p_dst, char ch, int size);
+PUBLIC	char*	strcpy(char* p_dst, char* p_src);
+PUBLIC	char*	strchr(char* pStr, char ch);
+
