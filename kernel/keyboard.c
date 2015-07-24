@@ -63,12 +63,8 @@ PUBLIC void init_keyboard()
 	kb_in.count = 0;
 	kb_in.p_head = kb_in.p_tail = kb_in.buf;
 
-	shift_l	= shift_r = 0;
-	alt_l	= alt_r   = 0;
-	ctrl_l	= ctrl_r  = 0;
-
 	caps_lock	= 0;
-	num_lock	= 1;
+	num_lock	= 0;
 	scroll_lock	= 0;
 
 	set_leds();

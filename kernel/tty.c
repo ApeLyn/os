@@ -92,7 +92,7 @@ PUBLIC void in_process(TTY* p_tty, t_32 key)
 	if (!(key & FLAG_EXT))
 	{
            if(Calculator==1){
-		 output[0] = key & 0xFF;
+                output[0] = key & 0xFF;
                 if(t[0]=='a'){
                   // disp_str(temp);
                    count=0;
@@ -349,7 +349,7 @@ PUBLIC void in_process(TTY* p_tty, t_32 key)
 		tty_tempbuf_putchar(p_tty, key & 0xFF);
                }
                count=count+1;
-               }else{
+              }else{
                 put_key(p_tty, key);
 		tty_tempbuf_putchar(p_tty, key & 0xFF);
               }
